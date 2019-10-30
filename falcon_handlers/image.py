@@ -19,6 +19,7 @@ class ImageHandler(object):
                 if not chunk:
                     break
                 image_file.write(chunk)
+        print('here')
 
         resp.status = falcon.HTTP_201
         resp.location = '/images/' + name

@@ -1,7 +1,7 @@
 import falcon
-from handlers.ping import PingHandler
-from handlers.image import ImageHandler
-from handlers.jsonbody import JsonBodyHandler
+from falcon_handlers.ping import PingHandler
+from falcon_handlers.image import ImageHandler
+from falcon_handlers.jsonbody import JsonBodyHandler
 
 app = falcon.API()
 

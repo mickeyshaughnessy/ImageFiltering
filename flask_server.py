@@ -1,5 +1,4 @@
 from flask import Flask, request, Response
-import jsonpickle
 import json
 import numpy as np
 import cv2
